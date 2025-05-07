@@ -1,0 +1,58 @@
+body {
+    background-color: #e6e0d4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-weight: bold;
+    color: rgb(26, 21, 21);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+    min-width: 400px;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 5px 10px rgb(39, 36, 36);
+
+    background-color: rgb(153, 133, 133);
+}
+
+.gift-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.present {
+    font-size: 100pt;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.long-phrase {
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+.love-bro {
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-top: 20px;
+}
